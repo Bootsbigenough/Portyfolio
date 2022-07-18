@@ -32,7 +32,8 @@ body {
 .hero{
     position: relative;
     width: 100vw;
-    height: 110vh;
+    height: 100vh;
+    display: flex;
 }
 .hero {
     background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Images/friends_bren-1.JPG");
@@ -74,8 +75,52 @@ body {
     background-repeat: no-repeat;
     background-size:cover;
     position: relative;
+    display: flex;
 }
 
 .hero2 .container{
-    width:
+    position: relative;
+    padding:10px;
+    height:300px;
+    left: 0;
+    bottom:0;
+    font-size:25px;
+    background-color:grey;
+    color:white;
+
 }
+
+footer {
+    padding: 10px;
+    height: 70px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    background-color:grey;
+    color:white;
+}
+
+.fa {
+    color: black;
+    padding: 20px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+  }
+
+  .fa-linkedin {
+    background: lightblue;
+    color: white;
+  }
+
+  .fa-github {
+    background:black;
+    color: white;
+  }
